@@ -60,4 +60,3 @@ $('.slideshow-container').slick({
     // instead of a settings object
   ]
 });
-
