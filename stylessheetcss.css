@@ -1296,6 +1296,7 @@ z-index: 1;
     /******************Section seven media query**********/
     .sectionsevencolumn {
         width: 100%;
+        padding-block: 56px;
     }
 
     .sectionsevenrow {
