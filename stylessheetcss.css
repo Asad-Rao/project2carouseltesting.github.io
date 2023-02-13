@@ -665,7 +665,7 @@ display: block;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-block: 100px;
+    padding-block: 125px;
 }
 
 .sectionsixcol1 {
@@ -1610,3 +1610,53 @@ width: 100%;
 }
 }
 
+
+
+
+
+
+
+
+
+
+/*******************Government Contracts*************/
+.governemntcontractfirstsectionrow
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+column-gap: 10%;
+
+}
+.governemntcontractfirstsectionrowcol
+{
+    width: 45%;
+}
+/* .governemntcontractfirstsectionrowcol2
+{
+    width: 100%;
+} */
+.governemntcontractfirstsectionrowcol p
+{
+    color:#656565;
+    font-family:RanuaTrials-Light;
+    font-size: 12px;
+}
+.governemntcontractfirstsectionrowcol h1
+{
+    color:#222222;
+    font-family: helvetica-lt-std-bold;
+}
+.governmentcontactsimage
+{
+    width: 100%;
+    display: block;
+}
+.governemntcontractcol2mageconteianer
+{
+    width: 45%;
+}
+@media screen and (max-width: 767px)
+{
+
+}
