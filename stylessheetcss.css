@@ -233,7 +233,7 @@ gap: 1%;
 }
 
 .iconscontainersectionone {
-    width: 64%;
+    width: 64.3%;
 
 }
 
@@ -349,11 +349,7 @@ justify-content: flex-end;
     display: flex;
     /* justify-content: space-between; */
 }
-.threebottlesdiv
-{
-    width: 90%;
-    margin: auto;
-}
+
 .yellowbottle {
     transform: translateX(75px);
 }
@@ -421,7 +417,7 @@ justify-content: flex-end;
 #bottlesection {
     background-image: url("images/threebottlesbackground.png");
     margin: 4% auto;
-    padding-block: 22px;
+    padding-block: 35px;
     background-size: cover;
     background-position: center;
 }
@@ -463,7 +459,7 @@ gap: 1%;
     align-items: center;
     column-gap: 3%;
     flex-wrap: wrap;
-
+padding-block: 100px;
 }
 
 .threebottles {
@@ -488,18 +484,14 @@ gap: 1%;
     text-align: left;
     right: 60%;
 }
-.threebottlesdiv
-{
-    width: 90%;
-}
+
 .threebottlescontent
 {
     
    
     background-color: white;
     position: relative;
-    bottom: 50px;
-   width: 90%;
+    bottom: 45px;
    margin: auto;
 }
 
@@ -613,46 +605,37 @@ gap: 1%;
 
 
 }
-.sectionfivecolumn {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-}
+
 
 .sectionfiverow {
     display: flex;
-    padding-block: 60px;
+    flex-direction: row;
+    padding-block: 58px;
     justify-content: flex-end;
     flex-wrap: wrap;
-    width: 100%;
-
+}
+.sectionfivecol
+{
+    width: 45%;
 }
 
-.sectionfivecolumn {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
+
 
 .sectionfiveiconandtext {
-    display: flex;
-    align-items: center;
-    column-gap: 4%;
     color: rgb(58, 58, 58);
     font-family: RanuaTrials-Medium;
     font-size: 20px;
-    padding-block: 9px;
-    width: 100%;
+    padding-block: 8px;
+
 }
 
 .sectionfiveicons {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+display: block;
 }
 
 .sectionfiveiconcontainer {
-    width: 12%;
+    width: 20%;
 }
 
 .easybutton {
@@ -675,18 +658,18 @@ gap: 1%;
 
     background-size: cover;
     background-position:center ;
-    padding-block: 150px;
+    
 }
 
 .sectionsixrow {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-block: 130px;
+    padding-block: 100px;
 }
 
 .sectionsixcol1 {
-    width: 38%;
+    width: 40%;
 }
 
 .sectionsixcol2 {
@@ -969,6 +952,7 @@ right: 15px;
 input {
     padding-block: 8px;
     width: 83%;
+    padding-inline-start: 15px;
 
 }
 form
@@ -1138,14 +1122,13 @@ input
 .cleaningpottlerow {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-block: 150px;
+    padding-block: 100px;
+    justify-content: flex-start;
 }
 
 .cleaningpottlecol1 {
 
-    width: 37%;
+    width: 40%;
 }
 
 .cleaningpottlecol2 {
@@ -1163,7 +1146,7 @@ input
 .orangearrow {
     background-color:rgba(253,203,121,255);
     color: white;
-    padding-inline: 15px;
+    padding-inline: 9px;
     border-color:rgba(253,203,121,255) ;
     border-style: solid;
 }
@@ -1248,7 +1231,16 @@ z-index: 1;
     position: relative;
     left: 18px;
  }
+/**********************SECTION SIX MEDIA QUERY******/
 
+    .sectionsixcol1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .cleaningpottlecol1{
+        width: 100%;
+    }
     /**********************************************************/
     /**********After home carousel section***************/
     .iconscontainersectionone {
@@ -1258,6 +1250,14 @@ z-index: 1;
 
     /****************************************************/
 
+.threebottlescontent
+{
+    padding-block: 30px;
+}
+    .topcornertext
+{
+    bottom: 85%;
+}
     /*******************MEDIA QUERY FOR SECTION THREE***************************/
 
     .textbottleheading
@@ -1324,22 +1324,49 @@ z-index: 1;
 
     /*****************************Bottle section*******************************/
     .bottlecolumn {
-        width: 100%;
+        width: 48.5%;
         background-color: transparent;
+        padding-block: 50px;
+    }
+    .bottlesrow
+    {
+        justify-content: space-between;
     }
 
     /**************************************************************************/
 /*******************Section Five Media Query*******************************/
-.sectionfiveiconcontainer
+
+.sectionfivecol
 {
-    width: 60%;
+    width: 100%;
+
 }
+.cleaningbottletext
+{
+    text-align: center;
+}
+.sectionfiveicons
+{
+   width: 100%;
+}
+.sectionfiveiconcontainer {
+    width: 48.5%;
+}
+.sectionfiveiconandtext {
+display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+gap: 76%;
+}
+
 
 /**************************************************************************/
 
-
-
-
+.cleaningpottlecol1
+{
+    text-align: center;
+}
 
 
     /****************************Footer Media Query*******/
@@ -1463,3 +1490,122 @@ body
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************CLEANING TUTORIAL CSS*********/
+.cleaningtutorialrow1
+{
+    display: flex;flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.imagebook
+{
+    width: 100%;
+    display: block;
+}
+.cleaningtutorialrow1col1
+{
+    width:60%;
+
+}
+.cleaningtutorialrow1col2
+{
+width: 40%;
+padding-inline: 42px;
+padding-block: 85px;
+background-color: #edf1f3;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+#cleaningtutorialfirstsection
+{
+    font-family:RanuaTrials-Light;
+}
+.cleaningtutorialsectiononetext
+{
+    padding-block: 17px;
+}
+
+.cleaningtutorialsection2images
+{
+    width: 100%;
+    display: block;
+
+}
+.cleaningtutorialrow2
+{
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    flex-wrap: wrap;
+
+padding-block: 43px;    
+
+}
+.columnrow2
+{
+width: 31%;
+
+}
+
+.columnrow2text
+{
+    padding-block: 30px;
+}
+.columnrow2text h4
+{
+font-size: 17px;
+    color: rgb(58, 58, 58);
+    font-family:RanuaTrials-Regular;
+}
+.columnrow2smalltext
+{
+    padding-block: 15px;
+    font-family:RanuaTrials-Light;
+    font-size: 12px;
+}
+.row2readmore
+{
+    color: #f5b44c;
+    font-family:Poppins-Medium;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px) 
+{
+    .cleaningtutorialrow1col1,.cleaningtutorialrow1col2
+    {
+        width: 100%;
+    }
+    .columnrow2
+{
+width: 100%;
+}
+.columnrow2
+{
+    margin-block:35px;
+}
+}
+
