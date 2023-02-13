@@ -60,3 +60,23 @@ $('.slideshow-container').slick({
     // instead of a settings object
   ]
 });
+$('.abovefooterrow').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  speed: 300,
+  dots: true,
+  arrows : false,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+        arrows : false,
+      }
+    }
+  ]
+});
