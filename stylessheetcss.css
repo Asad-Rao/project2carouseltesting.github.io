@@ -458,7 +458,7 @@ gap: 1%;
     align-items: center;
     column-gap: 3%;
     flex-wrap: wrap;
-padding-block: 100px;
+padding-block: 41px;
 }
 
 .threebottles {
@@ -490,7 +490,7 @@ padding-block: 100px;
    
     background-color: white;
     position: relative;
-    bottom: 45px;
+    bottom: 40px;
    margin: auto;
 }
 
@@ -569,7 +569,7 @@ padding-block: 100px;
     flex-wrap: wrap;
     width: 100%;
     gap: 13%;
-    padding-block: 56px;
+    padding-block: 40px;
     row-gap: 30px;
 }
 
@@ -847,10 +847,13 @@ right: 14px;
 
 .abovefootercol {
     width: 12.57%;
+    display: flex;
+
 }
 
 .imageabovefooter {
-    width: 100%;
+   width: 100%;
+    display: block;
 }
 
 /*********************Footer Section    *************************/
@@ -1232,7 +1235,7 @@ z-index: 1;
     .nav-icon {
         width: auto;
         position: relative;
-        right: 18px;
+        right: 39px;
     }
 
     .nav-icon-image {
@@ -1251,7 +1254,7 @@ z-index: 1;
  {
     font-size: 18px;
     position: relative;
-    left: 18px;
+    left: 40px;
  }
 /**********************SECTION SIX MEDIA QUERY******/
 
@@ -1336,25 +1339,15 @@ z-index: 1;
 
 
     /*******************Above Footer Section***********/
-    .abovefootercol {
-        width: 100%;
-    }
 
-    .abovefootercol {
-        padding-block: 20px;
-        padding-inline: 40px;
-    }
+
 
     /*****************************Bottle section*******************************/
     .bottlecolumn {
         width: 48.5%;
         background-color: transparent;
-        padding-block: 50px;
     }
-    .bottlesrow
-    {
-        justify-content: space-between;
-    }
+  
 
     /**************************************************************************/
 /*******************Section Five Media Query*******************************/
@@ -1377,6 +1370,8 @@ z-index: 1;
 }
 .sectionfiveiconandtext {
 width: 36.5%;
+margin-block-end: 15px;
+text-align: center;
 }
 
 
@@ -1466,7 +1461,7 @@ justify-content: center;
     .container {
         display: block;
         position: relative;
-        left: 18px;
+        left: 39px;
 
     }
 
@@ -1649,6 +1644,8 @@ column-gap: 10%;
 .governemntcontractfirstsectionrowcol
 {
     width: 45%;
+
+    padding-block: 30px;
 }
 /* .governemntcontractfirstsectionrowcol2
 {
@@ -1658,7 +1655,8 @@ column-gap: 10%;
 {
     color:#656565;
     font-family:RanuaTrials-Light;
-    font-size: 12px;
+    font-size: 16px;
+    padding-block: 15px;
 }
 .governemntcontractfirstsectionrowcol h1
 {
@@ -1676,5 +1674,8 @@ column-gap: 10%;
 }
 @media screen and (max-width: 767px)
 {
-
+.governemntcontractfirstsectionrowcol,.governemntcontractcol2mageconteianer
+{
+    width: 100%;
+}
 }
